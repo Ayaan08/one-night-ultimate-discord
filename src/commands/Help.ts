@@ -17,7 +17,7 @@ async function execute(msg: Message): Promise<void> {
 
   embed.setTitle('One night ultimate Discord');
   embed.setDescription(
-    'Visit https://github.com/DrSkunk/one-night-ultimate-discord for source code'
+    'PLAY'
   );
   embed.setURL('https://github.com/DrSkunk/one-night-ultimate-discord');
 
@@ -41,8 +41,8 @@ async function execute(msg: Message): Promise<void> {
   });
 
   embed.setFooter(
-    'Made with ❤️ by Sebastiaan Jansen / DrSkunk',
-    'https://i.imgur.com/RPKkHMf.png'
+    'Play with friends',
+    
   );
   const textChannel = msg.channel as TextChannel;
   textChannel.send(embed);
